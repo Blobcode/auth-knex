@@ -32,7 +32,7 @@ Finally, don't forget to update the JWT secret in
 
 To register a user, send a POST request to
 
-```
+```http
 http://localhost:3000/users/createUser
 ```
 
@@ -49,11 +49,11 @@ you should recive a x-access-token in the headers. This is the JWT that you can 
 access protected routes. To do so, put the token in your request headers as x-access-token.
 
 For examples, go to 
-```
+```http
 http://localhost:3000/public
 ```
 for a unathenticated route or
-```
+```http
 http://localhost:3000/private
 ```
 for an authenticated route.
