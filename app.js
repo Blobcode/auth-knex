@@ -19,5 +19,5 @@ app.use("/", mainRoute);
 
 //? Start server
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`Auth server listening at http://localhost:${port}`);
 });
